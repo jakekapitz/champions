@@ -47,7 +47,7 @@ export function getImage(src) {
  */
 const catalystImages = {};
 [ 'alpha', 'basic', TYPE.COSMIC, TYPE.TECH, TYPE.MUTANT, TYPE.SKILL, TYPE.SCIENCE, TYPE.MYSTIC ].forEach((type) => {
-    [ 1, 2, 3, 4, 5 ].forEach((tier) => {
+    [ 1, 2, 3, 4, 5, 6 ].forEach((tier) => {
         catalystImages[ `tier-${tier}-${type}` ] = require(`../images/catalysts/tier_${tier}_${type}.png`);
     });
 });
