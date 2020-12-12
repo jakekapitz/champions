@@ -136,7 +136,7 @@ const GuidePage = {
     view(ctrl, { uid }) {
         const guide = guides[ uid ];
         const details = [];
-        const champion = championMap[ `${ uid }-2` ] || championMap[ `${ uid }-3` ] || championMap[ `${ uid }-4` ] || championMap[ `${ uid }-5` ];
+        const champion = championMap[ `${ uid }-2` ] || championMap[ `${ uid }-3` ] || championMap[ `${ uid }-4` ] || championMap[ `${ uid }-5` ] || championMap[ `${ uid }-6` ];
         if(champion) {
             details.push(
                 <ChampionHeader
