@@ -376,6 +376,14 @@ export const EFFECT_STARS_AMOUNT = {
     [ EFFECT.ABOMINABLE_COMRADE ]: [ 10, 12, 15 ],
     [ EFFECT.IMMORTAL_RULERS ]: [ 10, 12, 15 ],
     [ EFFECT.IMMORTAL_KINGS ]: [ 10, 12, 15 ],
+    [ EFFECT.TWO_DAYS_THIRTY_YEARS ]: [ 10, 12, 15 ],
+    [ EFFECT.SATURDAY_MORNING_CARTOONS ]: [ 10, 12, 15 ],
+    [ EFFECT.SWINESTER_SIX_MOST_WANTED ]: [ 10, 12, 15 ],
+    [ EFFECT.FOURTH_WALL_CRAWLER ]: [ 10, 12, 15 ],
+    [ EFFECT.FISK_DOWNFALL ]: [ 10, 12, 15 ],
+    [ EFFECT.SECRET_OF_THE_HAND ]: [ 10, 12, 15 ],
+    [ EFFECT.RULE_OF_LAW ]: [ 10, 12, 15 ],
+    [ EFFECT.STRENGTH_OF_MARTYRS ]: [ 10, 12, 15 ],
 };
 export const EFFECT_STARS_INDEX = { 1: 0, 2: 0, 3: 1, 4: 2, 5: 2 };
 
@@ -756,6 +764,14 @@ const effects = [
     { uid: EFFECT.ABOMINABLE_COMRADE },
     { uid: EFFECT.IMMORTAL_RULERS },
     { uid: EFFECT.IMMORTAL_KINGS },
+    { uid: EFFECT.TWO_DAYS_THIRTY_YEARS },
+    { uid: EFFECT.SATURDAY_MORNING_CARTOONS },
+    { uid: EFFECT.SWINESTER_SIX_MOST_WANTED },
+    { uid: EFFECT.FOURTH_WALL_CRAWLER },
+    { uid: EFFECT.FISK_DOWNFALL },
+    { uid: EFFECT.SECRET_OF_THE_HAND },
+    { uid: EFFECT.RULE_OF_LAW },
+    { uid: EFFECT.STRENGTH_OF_MARTYRS },
 ].map(({ uid }) => new Effect({
     uid,
     base: EFFECT_STARS_AMOUNT[ uid ][ 0 ],
@@ -1139,6 +1155,14 @@ const effectIcons = {
     [ EFFECT.ABOMINABLE_COMRADE ]: 'effect-poison',
     [ EFFECT.IMMORTAL_RULERS ]: 'effect-xassassins',
     [ EFFECT.IMMORTAL_KINGS ]: 'effect-giant-challengers',
+    [ EFFECT.TWO_DAYS_THIRTY_YEARS ]: 'effect-two-days-thirty-years',
+    [ EFFECT.SATURDAY_MORNING_CARTOONS ]: 'effect-poison',
+    [ EFFECT.SWINESTER_SIX_MOST_WANTED ]: 'effect-swinester-six-most-wanted',
+    [ EFFECT.FOURTH_WALL_CRAWLER ]: 'effect-fourth-wall-crawler',
+    [ EFFECT.FISK_DOWNFALL ]: 'effect-bane-of-hells-kitchen',
+    [ EFFECT.SECRET_OF_THE_HAND ]: 'effect-secret-of-the-hand',
+    [ EFFECT.RULE_OF_LAW ]: 'effect-stun',
+    [ EFFECT.STRENGTH_OF_MARTYRS ]: 'effect-soul-seeker',
 };
 
 function effectIcon(uid) {
