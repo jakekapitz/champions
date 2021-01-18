@@ -1,0 +1,33 @@
+{
+    "description": "Jubilation Lee grew up in a wealthy family, attending private school and becoming an exceptional gymnast. However, her life took an unexpected turn when her parents were assassinated, leaving her orphaned. After manifesting her explosive mutant powers she was welcomed with open arms into a new family, the X-Men.",
+    "gameplay": {
+        "description": "MUTATION – ALWAYS ACTIVE\nJubilee’s energy plasmoids cause her Basic Attacks to deal Energy Damage instead of Physical.\n+1400 Energy Resistance.\n\nFIREWORKS – PRE-FIGHT ABILITY\nJubilee can rotate through Orange, Pink and Blue Fireworks. Throwing Light and Medium Attacks rotates Fireworks.\nIf a Firework Surge is selected in the pre-fight screen, at the start of the fight, gain a Firework Surge, preventing Jubilee from rotating Fireworks for 16 second(s).\nWhile Firework Surge is active, gain bonus effects when landing a hit or striking into a block, based on the active Firework:\nOrange: Deal 55% of hit damage as a burst of Energy Damage.\nPink: Opponents suffer -30% Defensive Combat Power Rate.\nBlue: Opponents suffer -50% Defensive Ability Accuracy.\n\nALL ATTACKS\nWhile Firework Surge is not active, being struck, landing a hit or striking into the block has a 50% chance to apply a Prowess Buff, increasing Special Attack Damage by 13% until the end of the next Special Attack. Max 12 stack(s).\nWhen intercepting the Opponent’s Dash Attack, this chance is increased to 100%."
+    },
+    "attack": {
+        "heavy": "When charging a Heavy Attack while a Firework Surge is active, remove the Firework Surge."
+    },
+    "specials": {
+        "1": {
+            "description": "On activation, gain a Firework Surge lasting 6 second(s).\nWhen the last hit lands or strikes into block, apply the effects of the active Firework, increasing the duration by 1 second(s) for each Prowess Effect:\nOrange: Inflict a Shock Debuff and consume all Damaging Debuffs on Jubilee. For each Damaging Debuff consumed, inflict another Shock Debuff, dealing 2295 Energy Damage each, over 9 seconds.\nPink: Inflict a Taunt Debuff, lasting 9 second(s), Opponents that are Taunted have their Attack Rating reduced by 40% and have a 70% higher chance to activate a Special Attack.\nBlue: Inflict a Slow Debuff, lasting 9 second(s), reducing Unstoppable and Evade Ability Accuracy by 100%, and preventing the effects of Unstoppable. Slow won’t trigger against natural Class Advantage.",
+            "note": "Make sure to stock on Prowess before using the Special 1 Attack in order to increase the duration of the debuffs."
+        },
+        "2": {
+            "description": "On activation, gain a Firework Surge lasting 19 second(s).\nWhen the last hit lands or strikes into block, apply the effects of the active Firework:\nOrange: Inflict an Incinerate Debuff, dealing 4463 Energy Damage over 22 seconds. This also removes the target’s Perfect Block Chance and reduces their Block Proficiency by 50%.\nPink: Inflict a Suppression Debuff, reducing Defensive Combat Power Rate by 25% for lasting 22 second(s).\nBlue: Inflict a Concussion Debuff, reducing the Opponent’s Ability Accuracy by -25% for 22 second(s).",
+            "note": "The Special 2 Attack is best used when trying to keep Jubilee’s Firework Surge active for the whole fight."
+        },
+        "3": {
+            "description": "On activation, gain a Firework Surge lasting 16 second(s).\nConsume up to 12 Prowess Buffs and gain an indefinite Prowess Passive for each Prowess that was consumed, increasing Special Attack Damage by 13%. Max 12 stack(s).",
+            "note": "For longer fights, the Showstopper allows Jubilee to double the amount of Prowess she can have. This makes the Debuffs on the Special 1 Attack extra long and the extra damage is a plus!"
+        }
+    },
+    "signature": {
+        "name": "Princess of Pyrotechnics",
+        "description": "Each time one of Jubilee’s personal Debuffs expires on the Opponent, deal a burst of 2041 Energy Damage.\nEach time the Opponent Purifies any Debuff, deal a burst of 3315 Energy Damage.",
+        "note": "In fights where Jubilee’s debuffs are being purified she can increase her damage once awakened."
+    },
+    "author": {
+        "name": "Kabam",
+        "type": "spotlight",
+        "profile": "https://playcontestofchampions.com/champion-spotlight-jubilee/"
+    }
+}

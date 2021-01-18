@@ -383,7 +383,16 @@ export const EFFECT_STARS_AMOUNT = {
     [ EFFECT.FISK_DOWNFALL ]: [ 10, 12, 15 ],
     [ EFFECT.SECRET_OF_THE_HAND ]: [ 10, 12, 15 ],
     [ EFFECT.RULE_OF_LAW ]: [ 10, 12, 15 ],
-    [ EFFECT.STRENGTH_OF_MARTYRS ]: [ 10, 12, 15 ],
+    [ EFFECT.ALL_ADAMANTIUM_AND_ATTITUDE ]: [ 10, 12, 15 ],
+    [ EFFECT.DEAL_WITH_IT ]: [ 10, 12, 15 ],
+    [ EFFECT.EXECUTE_TARGET_ACQUISITION_SUBROUTINE ]: [ 10, 12, 15 ],
+    [ EFFECT.PETITE ]: [ 10, 12, 15 ],
+    [ EFFECT.THE_LUCKY_ONE ]: [ 10, 12, 15 ],
+    [ EFFECT.YOURE_TANGLING_WITH_THE_WRONG_XMEN ]: [ 10, 12, 15 ],
+    [ EFFECT.BIG_BAD_DAD ]: [ 10, 12, 15 ],
+    [ EFFECT.BULL_TARGETS ]: [ 10, 12, 15 ],
+    [ EFFECT.CLONED_AT_BIRTH ]: [ 10, 12, 15 ],
+    [ EFFECT.MISS_ME ]: [ 10, 12, 15 ],
 };
 export const EFFECT_STARS_INDEX = { 1: 0, 2: 0, 3: 1, 4: 2, 5: 2 };
 
@@ -772,6 +781,16 @@ const effects = [
     { uid: EFFECT.SECRET_OF_THE_HAND },
     { uid: EFFECT.RULE_OF_LAW },
     { uid: EFFECT.STRENGTH_OF_MARTYRS },
+    { uid: EFFECT.ALL_ADAMANTIUM_AND_ATTITUDE },
+    { uid: EFFECT.DEAL_WITH_IT },
+    { uid: EFFECT.EXECUTE_TARGET_ACQUISITION_SUBROUTINE },
+    { uid: EFFECT.PETITE },
+    { uid: EFFECT.THE_LUCKY_ONE },
+    { uid: EFFECT.YOURE_TANGLING_WITH_THE_WRONG_XMEN },
+    { uid: EFFECT.BIG_BAD_DAD },
+    { uid: EFFECT.BULL_TARGETS },
+    { uid: EFFECT.CLONED_AT_BIRTH },
+    { uid: EFFECT.MISS_ME },
 ].map(({ uid }) => new Effect({
     uid,
     base: EFFECT_STARS_AMOUNT[ uid ][ 0 ],
@@ -1163,6 +1182,16 @@ const effectIcons = {
     [ EFFECT.SECRET_OF_THE_HAND ]: 'effect-secret-of-the-hand',
     [ EFFECT.RULE_OF_LAW ]: 'effect-stun',
     [ EFFECT.STRENGTH_OF_MARTYRS ]: 'effect-soul-seeker',
+    [ EFFECT.ALL_ADAMANTIUM_AND_ATTITUDE ]: 'effect-attack',
+    [ EFFECT.DEAL_WITH_IT ]: 'effect-health',
+    [ EFFECT.EXECUTE_TARGET_ACQUISITION_SUBROUTINE ]: 'effect-power-lock',
+    [ EFFECT.PETITE ]: 'effect-mostly-average-joes',
+    [ EFFECT.THE_LUCKY_ONE ]: 'effect-mental-immunity',
+    [ EFFECT.YOURE_TANGLING_WITH_THE_WRONG_XMEN ]: 'effect-resist-energy',
+    [ EFFECT.BIG_BAD_DAD ]: 'effect-cybernetics-tactics',
+    [ EFFECT.BULL_TARGETS ]: 'effect-attack',
+    [ EFFECT.CLONED_AT_BIRTH ]: 'effect-fourth-wall-crawler',
+    [ EFFECT.MISS_ME ]: 'effect-mental-immunity',
 };
 
 function effectIcon(uid) {
