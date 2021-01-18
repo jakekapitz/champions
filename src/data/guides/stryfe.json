@@ -1,0 +1,33 @@
+{
+    "description": "A child was created as a clone of infant “Nathan Summers” in the hopes of salvaging his techno-organic virus ravished body. Thinking this child to be Nathan, Apocalypse kidnapped him and raised him as his own, giving him the name “Stryfe” and encouraging the boy’s arrogance and cruelty in preparation to one day transfer his own consciousness into Stryfe’s body. Years later, during the ritual of transferring Apocalypse’s mind into Stryfe, it was discovered that he was actually a clone and thus unfit to house the essence of Apocalypse. Feeling betrayed by both what he thought were his real parents and his adoptive father Apocalypse, Stryfe grew up as an embittered madman seeking vengeance on those who wronged him.",
+    "gameplay": {
+        "description": "Psionic Blasts:\nPsionic blasts occur on Medium, Heavy and Special 2 attacks, these deal Energy Damage instead of Physical and cannot be Evaded.\nReduce the Potency of incoming Passive Direct Damage by 100%.\n\nTelepathic Charges – Max 20:\nTelepathic Charges are unaffected by Ability Accuracy reduction but cannot be gained while suffering Power Lock, Burn or Drain.\nAll attacks gain +69.72 Attack Rating per Telepathic Charge.\n55% chance to gain +1 Telepathic Charge when landing a Heavy Attack. Chance increased by a flat 15% for each full Bar of Power.\nGain +1 Telepathic Charge when struck by a Critical Hit.\nGain +1 Telepathic Charge each time Stryfe or his Opponent Misses.\nWhen Struck at 5+ Telepathic Charges, consume 5 charges to cause the attack to Glance. Glancing Hits cannot be Critical, deal 50% reduced damage, and suffer -100% Offensive Ability Accuracy.\nStriking an Opponent or into their Block while they are Unstoppable consumes +2 Telepathic Charges to remove the effect and inflict a Passive Stun for 1.20 seconds. Cooldown 8 seconds.\n\nOn Fourth Light Attack:\nConsume 1 Telepathic Charge to inflict a Passive Concussion for 12 seconds reducing the Opponent’s Ability Accuracy by 20%.\nWhile the Opponent is suffering from Concussion Stryfe can block Unblockable attacks."
+    },
+    "attack": {
+        "heavy": "Deal a burst of 581 Energy Damage. +500% potency if Invisible.\nGain +3 Telepathic Charges if Invisible."
+    },
+    "specials": {
+        "1": {
+            "description": "The second hit in this attack inflicts a non-stacking Passive Shock, dealing 2440.2 Energy Damage over 8 seconds. This Shock is removed and reapplied on each Psionic Blast.\nAfter this attack, Stryfe activates a telepathic cloak to go Invisible for 3 seconds, giving the Opponent a 100% chance to Miss. This will not trigger when fighting an Opponent with #Psychic Shielding.\nIf Stryfe lands an Attack, Blocks an attack, or the Opponent activates a Special Attack, his position is revealed and Invisibility is removed.",
+            "note": "When playing Stryfe you will never want to throw your SP1 while the opponent has 1 or more full bars of power since the opponent might retaliate with a Special Attack of their own and strip away Stryfe’s cloak. Instead bait the Opponent’s SP before using Stryfe’s, this way you have free and easy access to Heavy Intercepting via the cloak!"
+        },
+        "2": {
+            "description": "The first hit and final 2 hits in this attack are Psionic Blasts, each dealing a burst of 697.2 Energy Damage. +80% potency if the Opponent is Shocked.\nPsionic blasts gain +139.44 Attack Rating per Telepathic Charge.",
+            "note": "In an average or shorter fight SP2 is a great finisher. Open with an SP1 to build Telepathic charges then use those charges to detonate some chunky damage in SP2! If Stryfe has his Signature Ability unlocked he can also store a bunch of his charges as Persistent charges when closing a fight!"
+        },
+        "3": {
+            "description": "Gain +5 Persistent Telepathic Charges, these last for the rest of the quest but are capped at 100.\nConsume all Telepathic Charges, each becoming +1 additional Persistent Telepathic Charge.\nPersistent Telepathic Charges cannot be consumed to trigger abilities, but still grant Attack Rating bonuses.\nIf the Opponent is Shocked, inflict a Passive Concussion for 30 seconds reducing the Opponent’s Ability Accuracy by 30%.",
+            "note": "SP3 is best used in longer fights such as the Abyss since it allows Stryfe to store up to 25 Telepathic charges permanently for the rest of the quest. If a fight is long enough Stryfe will be able to hit his maximum ramp in four SP3 rotations, then he can switch over to SP1 into SP2 loop to hit massive damage very consistently."
+        }
+    },
+    "signature": {
+        "name": "Substantial Psionic Power",
+        "description": "When gaining Telepathic Charges from any source other than this ability Stryfe has a 20.01% chance to gain +1 additional charge.\nWhenever the Opponent Glances a Basic Attack Stryfe has a 40.00% chance to Activate his Special 1 Invisibility for 3 seconds.\nWinning a fight converts 70% of Telepathic Charges into Persistent Telepathic Charges.",
+        "note": "Stryfe’s signature is extremely useful for ramping charges in the average fight where he might never reach an SP3. It’s also a great way to help him ramp quicker!\nThe signature chance for a Glancing hit to activate Telepathic cloak is also extremely valuable when making a mistake and eating a hit since it has a good chance of not only saving Stryfe from eating a combo, but also allowing him to rebuild a portion of charges lost on the Glancing hit by causing the opponent to miss!"
+    },
+    "author": {
+        "name": "Kabam",
+        "type": "spotlight",
+        "profile": "https://playcontestofchampions.com/champion-spotlight-stryfe/"
+    }
+}
