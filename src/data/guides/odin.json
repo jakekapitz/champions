@@ -1,0 +1,33 @@
+{
+    "description": "Odin is the King of Asgard and All-Father to numerous formidable Asgardian Gods. However, Odin is the most powerful of the Asgardians, possessing a vast cosmic energy source called the Odinforce. This power is so great that Odin must enter a coma-like state called Odinsleep to recover from its overwhelming strength. As protector of the Nine Realms, Odin and his son, Thor, defend Asgard from threats of otherworldly origins.",
+    "gameplay": {
+        "description": "Odinsleep\nAt the start of Odin’s first fight as an Attacker and every fight as a Defender, gain Odinsleep’s effects.\nWhen Odin’s teammates win a fight, at the start of Odin’s next fight, gain Odinsleep’s effects.\nOdinsleep grants the following effects:\nFury Buff, increasing Attack Rating by 2586. Max 2 stack(s).\nArmor Up Buff, increasing Armor Rating by 3150. Max 2 stack(s).\n\nOdinforce\nWhen either Odin or his Opponent are knocked down, gain an Odinforce Charge.\nWith 2 Odinforce Charges, the next attack with an Odinforce effect will consume all Odinforce Charges and trigger a bonus effect.\n\nAlways Active\nWhile in striking distance, pause the duration of all Odin’s personal Buffs.\nAll-Father Odin’s Vault - Pre-Fight and Cross-Fight Abilities\nOdin can place Cross-Fight abilities on the next fight from the pre-fight screen, and the next teammate excluding Odin that enters the fight gains the Cross-Fight Ability lasting the entire quest.\nThrudstok: Each fight, gain an indefinite Aptitude Buff, increasing the potency of Fury, Armor Up and Precision Buffs by 13%.\nDraupnir: Each fight, gain an indefinite Protection Buff, preventing the loss of more than 18% of Max Health from a single source. This Buff is removed when struck by a Special 3 Attack and does not mitigate the damage.\nStormbreaker: Each fight, gain an indefinite Shock Resist Buff, increasing Shock Resistance by 80%."
+    },
+    "attack": {
+        "heavy": "On hit, gain an Energize Buff, increasing Combat Power Rate by 10% for 7 second(s). Max 1 stack(s).\nOdinforce: On hit, gain an Energize Buff for each of Odin’s unique Buffs, increasing Combat Power Rate by 5% for 7 second(s). Max 5 stack(s)."
+    },
+    "specials": {
+        "1": {
+            "description": "On activation, gain a True Strike Buff, ignoring Armor, Resistances, Auto-Block and Evade effects for 7 second(s).\nOdinforce: On activation, gain a Bulwark Buff, increasing Block Proficiency by 700 for 7 second(s). Max 1 stack(s).",
+            "note": "Odin has access to 2 unique Buffs from his Special 1 Attack, crucial to ramping up Odin during a fight."
+        },
+        "2": {
+            "description": "On activation, pause the duration of all Buffs on Odin until the Special Attack ends.\nThe last hit deals a burst of Direct Damage for each of Odin’s unique Buffs. Each dealing 2.75% of the Opponent's Max Health, up to 11600.\nOdinforce: On activation, refresh the duration of all personal Buffs on Odin.",
+            "note": "The last hit in Odin’s Special 2 Attack has a damage cap. This scales with his Base Attack Rating, meaning that he can increase this damage cap by levelling up!"
+        },
+        "3": {
+            "description": "Gain a copy of all personal Buffs Odin has gained at any time during the fight.\nOdinforce: Gain an Extend Buff, increasing the duration of all Buffs by 25% for 15 second(s). Max 1 stack(s).",
+            "note": "For increased damage in longer fights, Odin can use his Special 3 Attack to gain copies of his Fury and Armor Up Buffs granted by Odinsleep. But for other Buffs, notice that Odin has max stacks that prevent him from stacking bonus Buffs."
+        }
+    },
+    "signature": {
+        "name": "Protector of Nine Realms",
+        "description": "When either Odin or his Opponent are knocked down, if the Opponent has any of the following Buffs, Odin gains a corresponding Buff, lasting 7 second(s). Max 1 stack(s) each:\nFury Buff, increasing Attack Rating by 646.5.\nArmor Up Buff, increasing Armor Rating by 899.99.\nResist Physical Buff, increasing Physical Resistance by 700.\nResist Energy Buff, increasing Energy Resistance by 700.\nCritical Resistance Buff, increasing Critical Resistance by 370.59.",
+        "note": "Odin gets access to 3 more unique buffs when he is awakened, scaling with his other abilities. These can also be paused while Odin is in striking distance."
+    },
+    "author": {
+        "name": "Kabam",
+        "type": "spotlight",
+        "profile": "https://playcontestofchampions.com/champion-spotlight-odin/"
+    }
+}

@@ -1,10 +1,12 @@
 {
-    "youtube": "mFt7trVVcEo",
+    "description": "There are many rumors about the origin of the mysterious Civil Warrior… legend says he is a Captain America from an alternate Earth ravaged by the Civil War between his own army and Iron Man’s forces. On that world, the two heroes mortally wounded each other in the final battle of the war; Steve survived, but Tony didn’t. Riddled with guilt for the battle’s destruction and the death of his former ally at his own hands, he assumed the mantle of the Civil Warrior. Adding Tony’s ARC technology to his Captain America gear, he vowed to use his friend’s legacy to stop this senseless conflict from ever happening again.",
+    "gameplay": {
+        "description": "Always Active\nCivil Warrior’s combination of Super Soldier Serum and advanced Stark Tech renders him Immune to Nullify and Stagger effects.\nFor each Armor Up Buff active on Civil Warrior, reduce the opponent’s Bleed and Poison Ability Accuracy by 25%.\n\nPersonal Armor Up Buffs\nUnless otherwise stated, Civil Warrior’s Armor Up Buffs provide +233.33 Armor Rating and last 11 seconds.\n\nAll Attacks\nEvery 5th basic attack that either Champion throws has a 100% chance to grant 1 Armor Up Buff.\n\nDash back and Hold Block for 1.2 seconds\nConverts all Armor Up Buffs into Fury Buffs, with each providing +276.12 Attack Rating for 12 seconds.\nThese Fury Buffs have a Max Stack of 50 and are Refreshed each time an Armor Up Buff is converted this way.\n\nSpecial Attacks\nWhen launched: Pause all Armor Up Buffs for 20 seconds.\nOn hit: Pause all Heal Block Debuffs on the opponent for 6 seconds."
+    },
     "specials": {
         "1": {
             "name": "Arc Blast",
-            "note": "\"I have seen this war.\"",
-            "description": "Civil Warrior triggers his advanced Stark Tech, gaining 4 Armor Up charges, each increasing Armor by 15% for 10 seconds.",
+            "description": "Gain up to 4 Armor Up Buffs. 100% chance each.",
             "ranges": [
                 "short"
             ],
@@ -17,60 +19,27 @@
         },
         "2": {
             "name": "Repulsor Rush",
-            "note": "\"I have fought this fight.\"",
-            "description": "Depletes up to 59% of the target’s max Power.",
-            "damagetypes": [
-                "energy"
-            ],
-            "abilities": [
-                "powerdrain"
-            ],
-            "ranges": [
-                "short",
-                "medium",
-                "medium"
-            ]
+            "description": "100% chance to Power Burn 2 Bar(s) of Power, dealing direct damage proportional to the amount of Power lost."
         },
         "3": {
             "name": "Overload",
-            "description": "100% chance to Power Drain, depleting up to 54% of the target’s max Power. If the target is reduced to zero Power from this attack, they also become Power Locked for 6 seconds.",
-            "note": "\"I must end it at any cost.\"",
-            "damagetypes": [
-                "physical",
-                "energy"
-            ],
-            "abilities": [
-                "powerdrain",
-                "powerlock"
-            ]
+            "description": "The opponent is Passively Power Locked during this attack.\n100% chance to inflict Power Drain, removing 1 Bar of Power. If the target is reduced to 0 Power, they also receive a Power Lock Debuff for 14 seconds, preventing them from gaining Power."
         }
     },
     "attack": {
-        "heavy": "Heal Block - Heavy Attacks 95% chance to inflict Heal Block, preventing the target from recovering Health for 3 seconds. This has one potential trigger chance during the final strike of the heavy attack.",
+        "heavy": "100% chance to inflict a 10 second Heal Block Debuff, preventing the target from recovering Health.",
         "abilities": [
             "healblock"
-        ]
-    },
-    "gameplay": {
-        "description": "For each Armor Up effect active, Civil Warrior’s advanced Stark Tech protects him further, reducing enemy Offensive Ability Accuracy by 15% per Armor Up charge.\n\nSpecial Attacks\n\nIf the opponent is under the effect of a Heal Block Debuff, that Heal Block is replaced with a 10 second Heal Block. This Heal Block will not replace a Passive Heal Block effect, such as those gained from a Local or Linked node.",
-        "abilities": [
-            "powerdrain",
-            "powerburn",
-            "powerlock",
-            "healblock",
-            "armorup"
         ]
     },
     "author": {
         "type": "spotlight",
         "name": "Kabam",
-        "profile": "666515-Civil-Warrior-Champion-Spotlight"
+        "profile": "https://playcontestofchampions.com/champion-spotlight-civil-warrior/"
     },
     "signature": {
-        "description": "An upgrade to Civil Warrior’s Arc Shield grants him 2 Armor Up charges at the start of the fight. Additionally, he receives (9 - 20%) Special Damage resistance while Blocking.",
+        "description": "Always Active\nCivil Warrior begins the fight with 2 indefinite Armor Up Buffs.\nBlocking during the opponent’s Special Attack inflicts them with a Passive Weakness, reducing their Attack Rating by 60%. This is also true if Civil Warrior was Blocking prior to a Special Attack 3.",
         "name": "Arc Shield",
-        "abilities": [
-            "armorup"
-        ]
+        "note": "If you accidentally get an opponent to SP3 and don’t have an Sp2 or 3 on deck to pull them down make sure to just hold block to get some massive damage reduction from the attack!"
     }
 }
