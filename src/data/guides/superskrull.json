@@ -1,0 +1,30 @@
+{
+    "description": "Kl’rt was a highly decorated soldier of the Super-Skrull Empire. But when the Super-Skrull invasion of Earth was thwarted by the Fantastic Four, he was made into Super-Skrull. The first and the greatest of the Super-Skrulls, he was imbued with all the powers of the Fantastic Four. When charged by cosmic power beamed directly into his body from the Super-Skrull homeworld, he becomes even more powerful than those whose powers he mimics. Nothing can stop him, and he shall make the Earth pay for what it has done to his people!",    
+    "gameplay": {
+        "description": "Enhanced Physiology - Passive\nImmune to Shock, Incinerate.\nFury Buffs also grant +64.95 Block Penetration.\nArmor Up Buffs also grant +110.53 Critical Resistance.\n\nHypnotic Gaze - Debuff\nAfter a cooldown of 25 seconds inflict a Falter Debuff on the Opponent. This Falter Debuff lasts for 1 seconds, causes all attacks to Miss and begins Paused.\nFalter is unpaused when Super-Skrull is Struck, Blocks an Attack, or an Opponent Misses.\nWhen this Falter expires, there is a 100% that it's replaced with an Energy Vulnerability Debuff reduces Energy Resist by 1400 for 5 seconds.\n\nCosmic Energy Receptors - Buff\nEvery 1 second Super-Skrull reaches full charge, and his next action creates a Buff, resetting the charge. This charge is not affected by Ability Accuracy.\nLanding a Hit or Striking a Block converts to a Fury Buff increasing Attack by 314.08.\nBeing Struck by or Blocking an Attack converts to an Armor Up Buff increasing Armor by 400.\n5 of these Buffs can be maintained at a time.\n\nCosmic Energy Overload - Buff\nUpon reaching his Cosmic Energy Receptor Buff limit Super-Skrull gains a Cosmic Energy Overload Buff for 15 seconds, and cannot build any more Cosmic Energy until it ends.\nAll Cosmic Energy Receptor Buffs are removed when Overload ends or if it fails to trigger.\nSkrull gains additional Buffs based on the Armor Up or Fury Buffs active when he enters Overload:\n4+ Armor Up Buffs: Gain a Vigilance Buff for 15 seconds.\n8+ Armor Up Buffs: Gain an Unblockable Buff for 15 seconds.\n4+ Fury Buffs: Gain an Undermine Debuff for 15 seconds, granting Unblockable to any Hit which the Opponent Autoblocks.\n8+ Fury Buffs: Gain a Nova Fists Buff for 15 seconds. Granting a 100% chance to Incinerate on all attacks, dealing 1037.94 energy damage over 1.5 seconds, removing Perfect Block Chance and reduces Block Proficiency by 50%."
+    },
+    "specials": {
+        "1": {
+            "description": "On Activation convert up to 5 Fury Buffs into Armor Up Buffs increasing Armor by 400 for 25 seconds.\nThe second hit of this attack Cannot Miss or be Autoblocked.",
+            "note": "Ok here’s how we can start tying our Overload’s together. By passing Fury -> Armor you can effectively “store” it for the next rotation."
+        },
+        "2": {
+            "description": "On Activation convert up to 5 Armor Up Buffs into Fury Buffs increasing Attack by 314.08 for 25 seconds.\nEach hit has a 100% chance to cause an Incinerate on Hit doing 2502.83 Energy Damage over 15 seconds, removing Perfect Block Chance and reduces Block Proficiency by 50%.",
+            "note": "This is Super-Skrull’s big damage payoff! Convert Armor Ups back into Fury, and burn baby burn."
+        },
+        "3": {
+            "description": "Gain an indefinite non-stacking Aptitude increasing the potency of future Armor Up, Fury, and Precision Buffs by 60%.\n100% chance to Stun for 3 seconds.",
+            "note": "Super-Skrull’s SP3 is most useful in longer fights where Aptitudes provide more value the longer you have it for, and the Stun lets you follow up immediately afterwards."
+        }
+    },
+    "signature": {
+        "name": "Self Sustaining Power",
+        "description": "While in Cosmic Energy Overload, Super-Skrull gains a Power Gain Buff, granting 7.1% of a Bar of Power per second.",
+        "note": "Super-Skrull’s Signature Ability is nice and simple-- while you’re Overloading, gain Power. On offense this opens up new opportunities for combining his Overload Buffs, and on Defense you’ll definitely find yourself needing to keep his Power Bar in check."
+    },
+    "author": {
+        "name": "Kabam",
+        "type": "spotlight",
+        "profile": "https://playcontestofchampions.com/champion-spotlight-super-skrull/"
+    }
+}

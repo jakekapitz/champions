@@ -1,61 +1,30 @@
 {
+    "description": "After learning the science behind Hank Pym’s astonishing shrinking suit, the ruthless tech mogul Darren Cross devoted his resources to creating a prototype suit with similar abilities. Cross envisioned this high-power cybernetic rig as a means to take modern warfare to a new level, personally overseeing its retrofitting and weaponization. Cross dons the imposing armor himself in hope of achieving final victory as Yellowjacket!",
     "gameplay": {
-        "abilities": [
-            "precision"
-        ],
-        "note": "Yellowjacket is designed to bait special attacks.  Your goal should be to ramp up the enemy power level to L1 or L2, and hit him with your own L1 or L2.  Use the walk-up/run-away method to bait enemy special attacks and evade. The Power Sting target will take damage at the beginning of the L1 or L2 animation, and at the end of the L3 animation.  \n\nIf Yellowjacket is awakened, investing in Utility Masteries will extend the stun duration and related effects.  Awakened or not, investing in masteries that raise your base attack will increase the direct damage dealt to the target.",
-        "description": "Special Attacks 90% chance to Sting the opponent for 8 seconds. An opponent with sting takes 100% of your Attack as damage when activating a special attack.",
-        "rating": "5"
+        "description": "Always Active\n+4900 Energy Resistance.\n+1130.77 Physical Resistance.\n\nNuclear Core – Always Active\nStarting Charge: 40. Overheat Point: 100+\nFor each Charge: Increase the Potency of personal Debuffs by 1% & reduce the opponent’s Regeneration Rate by 1%.\nEither Champion lands a hit: +1 Charge. 60% Chance.\nOpponent Launches a Special Attack: +10 Charge. 100% Chance.\n\nNuclear Core – Meltdown\nWhen Charge is gained above the Overheat Point, there’s a chance to enter Meltdown for 12 seconds. Chance increases with Charge.\nWhile Meltdown is active: Any contact with the opponent has a 75% chance to inflict a burst of 876.4 Physical Damage on them.\nWhen Meltdown ends: Reset Core back to Starting Charge.\n\nIncoming Unblockable Special Attacks\nEach hit has a 100% chance to spend 10 Nuclear Core Charge to reduce the opponent’s Attack Rating by 75%.\n\nSpecial Attacks – Mystic Opponent\nPersonal Debuffs trigger when the attack is launched instead of on hit and they are Paused for the duration of the attack."
     },
     "specials": {
         "1": {
             "name": "Biosting Blast",
-            "ranges": [
-                "medium"
-            ],
-            "damagetypes": [
-                "energy"
-            ],
-            "note": "90% chance to Sting the opponent for 8 seconds. An opponent with sting takes 100% of your Attack as damage when activating a special attack.",
-            "rating": "5"
+            "description": "Inflicts up to 3 Power Sting Debuffs, with each having a 90% chance to activate and lasting 10 seconds. An opponent with Power Sting takes 1878 direct damage if they activate a Special Attack."
         },
         "2": {
-            "rating": "5",
             "name": "Power Sting",
-            "ranges": [
-                "medium"
-            ],
-            "damagetypes": [
-                "energy",
-                "physical"
-            ],
-            "note": "90% chance to Sting the opponent for 8 seconds. An opponent with sting takes 100% of your Attack as damage when activating a special attack."
+            "description": "100% chance to inflict a Petrify Debuff for 15 seconds, reducing the opponent’s Regeneration and Power Gain Rate by a flat 50%."
         },
         "3": {
-            "note": "90% chance to Sting the opponent for 8 seconds. An opponent with sting takes 100% of your Attack as damage when activating a special attack.",
-            "name": "Biosting Barrage",
-            "damagetypes": [
-                "energy"
-            ],
-            "rating": "5"
+            "note": "100% chance to inflict an indefinite Power Sting Debuff causing 5508.8 direct damage to the opponent if they activate a Special Attack.",
+            "name": "Biosting Barrage"
         }
     },
     "signature": {
-        "name": "Biosting 2.0",
-        "abilities": [
-            "stun"
-        ]
+        "name": "Hostile Takeover",
+        "desription": "Personal Debuff Enhancement\nSpecial 1: Power Sting has a 100% chance to inflict a 2.10 second Stun Debuff if it expires after lasting its full duration.\nSpecial 2: Gain +5 Core Charge when Petrify ends.\nSpecial 3: Power Sting has a 100% chance to re-apply itself once triggered. Chance decreases by 0% each time this happens.",
+        "note": "The SP3 paired with a high Signature Ability level will lead to a ton of free damage in longer fights! The 0% chance is only at Max Signature Ability for reapplying the Power Sting, this may be a bit odd but it actually means there is 100% chance to reapply the power Sting!"
     },
     "author": {
-        "name": "JJW",
-        "type": "reddit",
-        "profile": "-JJW-"
-    },
-    "grades": {
-        "normal": "A",
-        "awakened": "A+"
-    },
-    "attack": {
-        "description": "All Attacks\n8% chance to boost Critical Hit Rate by 29% for 6 seconds."
+        "name": "Kabam",
+        "type": "spotlight",
+        "profile": "https://playcontestofchampions.com/champion-spotlight-yellowjacket/"
     }
 }

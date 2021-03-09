@@ -1,31 +1,32 @@
 {
     "description": "Leader of the Hunt, Guardian of the Galaxy, Queen of Hel, Angel, Goddess. Angela is a woman of many titles. Born Aldrif Odinsdottir, the first child of Freyja and Odin, but raised as Angela by Loriel, handmaiden to the Queen of Angels, she has battled her way across the Galaxy. Now Angela has come to the Contest, perhaps the greatest challenge of martial skill and strength to be found in the Nine Realms, and beyond.",
-    "youtube": "hewPAiIvvz4",
     "gameplay": {
-        "description": "Passive\n\nFor each 10% of Max Health taken in damage, immediately gain a Resilience counter.\nWhen below 100% Max Health without an active Regeneration Buff, convert a Resilience counter into a Regeneration Buff, recovering 691.75 Health over 10 seconds.\nPassive\n\nAngela gains a Buff based on her current Power level.\nEach time Angela lands a Critical Hit she duplicates the Buff she’s being granted by her current Power level. This Buff has a Duration of 15 seconds, and a maximum of 1 stack(s) of each Buff can be Duplicated.\nLess than Special 1: Armor Up increasing Armor Rating by 666.67\nSpecial 1: Fury increasing Attack by 899.25\nSpecial 2: Precision increasing Critical Rating by 2000\nSpecial 3 : Aptitude increasing the effect of all Fury, Armor, and Precision Buffs by 50%."
+        "description": "Blocking – Fighting Non-Mystic Champions\nAdvanced training allows Angela to Parry Non-Contact attacks.\n\nWhen Damaged\nFor each 10% of Max Health taken in damage, gain an indefinite Resilience Charge.\nWhen below Max Health, if Angela does not have a Regeneration Buff, she converts 1 Resilience Charge into a Regeneration Buff, healing 1387 Health over 10 seconds.\n\nIndefinite Huntress Buff – Always Active\nAngela gains an indefinite Buff based on her current Power Level.\nBelow 1 Bar: Armor Up, granting +900 Armor Rating.\nBetween 1 and 2 Bars: Fury, granting +2033.2 Attack Rating.\nBetween 2 and 3 Bars: Precision, granting +2100 Critical Rating.\n3 Bars: Aptitude, increasing the Potency of all Fury, Armor Up and Precision Buffs by 60%.\n\nTemporary Huntress Buffs – Critical Hits\n100% chance to duplicate the current, indefinite Huntress Buff. This duplicated Buff lasts 15 seconds. A maximum of 1 of each type of Huntress Buff may be duplicated at a time."
     },
     "attack": {
-        "heavy": "This attack receives 2000 additional Critical Rating."
+        "heavy": "This attack receives +2100 additional Critical Rating."
     },
     "specials": {
         "1": {
             "description": "Sword of the Stars – Angela unleashes a powerful series of strikes with her sword Xiphos.",
-            "note": "100% chance for Fury, increasing your Attack by 899.25 for 5 seconds. If there is already a Fury active on Angela, this effects lasts for 20 seconds instead."
+            "note": "100% chance to gain a Fury Buff for 5 seconds, granting 2033.2 Attack.\nThis Fury Buff instead lasts 20 seconds if Angela already had a Fury Buff active on herself."
         },
         "2": {
             "description": "Blades of Ichor – Angela dashes forward to employ the Blades separated, before combining them to strike again.",
-            "note": "100% chance to Armor Up, increasing Armor Rating by 666.67 for 5 seconds. If there is already an Armor Up active on Angela, this effects lasts for 20 seconds instead."
+            "note": "100% chance to gain an Armor Up Buff for 5 seconds, granting +900 Armor Rating.\nThis Armor Up Buff instead lasts 20 seconds if Angela already had an Armor Up Buff active on herself."
         },
         "3": {
             "description": "Martial Mastery – Angela strikes with the Sword of the Stars forcing her opponent back, before drawing the Blades of Ichor to finish them.",
-            "note": "Angela’s Attack is increased by 599.5 for each Buff active on her during this attack."
+            "note": "100% chance to gain an Aptitude Buff, increasing the potency of Armor, Fury, and Precision Buffs by 60% lasting for 5 seconds.\nThis Aptitude Buff instead lasts 30 Seconds if Angela already already had an Aptitude Buff active on herself.\nAngela’s Attack Rating is increased by +1196 for each Buff active on her during the attack."
         }
     },
     "signature": {
-        "description": "Battle Focus\nAs Angela enters combat she gains greater and greater focus, allowing each Buff active on her to reduce all Nullify abilities chance to trigger against her by 25%."
+        "name": "Battle Focus",
+        "description": "Always Active\nFor each Buff on Angela, her opponent suffers the following:\n-35.05% Nullify & Auto-Block Ability Accuracy.\n-35.05% Damaging Debuff Duration."
     },
     "author": {
         "name": "Kabam",
-        "type": "spotlight"
+        "type": "spotlight",
+        "profile": "https://playcontestofchampions.com/champion-spotlight-angela/"
     }
 }
