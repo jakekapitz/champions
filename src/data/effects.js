@@ -425,7 +425,18 @@ export const EFFECT_STARS_AMOUNT = {
     [ EFFECT.PYRAMID_X ]: [ 10, 12, 15 ],
     [ EFFECT.TEMPLE_OF_VISHANTI ]: [ 10, 12, 15 ],
     [ EFFECT.TRIBAL_WARFARE ]: [ 10, 12, 15 ],
-
+    [ EFFECT.EYES_OF_THE_DRAGON ]: [ 10, 12, 15 ],
+    [ EFFECT.MASTER_MARTIAL_ARTISTS ]: [ 10, 12, 15 ],
+    [ EFFECT.SHADOWLAND ]: [ 10, 12, 15 ],
+    [ EFFECT.THE_WAY_OF_THE_SPIDER ]: [ 10, 12, 15 ],
+    [ EFFECT.A_BEING_DARKER_THAN_I ]: [ 10, 12, 15 ],
+    [ EFFECT.FROM_LIGHT_TO_DARK ]: [ 10, 12, 15 ],
+    [ EFFECT.HEALING_TOUCH ]: [ 10, 12, 15 ],
+    [ EFFECT.TIME_WE_CHANGED_TOO ]: [ 10, 12, 15 ],
+    [ EFFECT.BATTLEREALMS_CHANGING ]: [ 10, 12, 15 ],
+    [ EFFECT.KINGS ]: [ 10, 12, 15 ],
+    [ EFFECT.ROYALS ]: [ 10, 12, 15 ],
+    [ EFFECT.WARRIORS ]: [ 10, 12, 15 ],
 };
 export const EFFECT_STARS_INDEX = { 1: 0, 2: 0, 3: 1, 4: 2, 5: 2 };
 
@@ -855,6 +866,18 @@ const effects = [
     { uid: EFFECT.PYRAMID_X },
     { uid: EFFECT.TEMPLE_OF_VISHANTI },
     { uid: EFFECT.TRIBAL_WARFARE },
+    { uid: EFFECT.EYES_OF_THE_DRAGON },
+    { uid: EFFECT.MASTER_MARTIAL_ARTISTS },
+    { uid: EFFECT.SHADOWLAND },
+    { uid: EFFECT.THE_WAY_OF_THE_SPIDER },
+    { uid: EFFECT.A_BEING_DARKER_THAN_I },
+    { uid: EFFECT.FROM_LIGHT_TO_DARK },
+    { uid: EFFECT.HEALING_TOUCH },
+    { uid: EFFECT.TIME_WE_CHANGED_TOO },
+    { uid: EFFECT.BATTLEREALMS_CHANGING },
+    { uid: EFFECT.KINGS },
+    { uid: EFFECT.ROYALS },
+    { uid: EFFECT.WARRIORS },
 ].map(({ uid }) => new Effect({
     uid,
     base: EFFECT_STARS_AMOUNT[ uid ][ 0 ],
@@ -1287,6 +1310,18 @@ const effectIcons = {
     [ EFFECT.PYRAMID_X ]: 'effect-critical-rate',
     [ EFFECT.TEMPLE_OF_VISHANTI ]: 'effect-power-lock',
     [ EFFECT.TRIBAL_WARFARE ]: 'effect-attack',
+    [ EFFECT.EYES_OF_THE_DRAGON ]: 'effect-critical-rate',
+    [ EFFECT.MASTER_MARTIAL_ARTISTS ]: 'effect-stun',
+    [ EFFECT.SHADOWLAND ]: 'effect-degeneration',
+    [ EFFECT.THE_WAY_OF_THE_SPIDER ]: 'effect-attack',
+    [ EFFECT.A_BEING_DARKER_THAN_I ]: 'effect-friend-from-work',
+    [ EFFECT.FROM_LIGHT_TO_DARK ]: 'effect-seething-hatred',
+    [ EFFECT.HEALING_TOUCH ]: 'effect-regeneration',
+    [ EFFECT.TIME_WE_CHANGED_TOO ]: 'effect-resist-energy',
+    [ EFFECT.BATTLEREALMS_CHANGING ]: 'effect-gamma-ray-ray',
+    [ EFFECT.KINGS ]: 'effect-attack',
+    [ EFFECT.ROYALS ]: 'effect-mostly-average-joes',
+    [ EFFECT.WARRIORS ]: 'effect-attack',
 };
 
 function effectIcon(uid) {

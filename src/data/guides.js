@@ -1,7 +1,7 @@
 import { CHAMPION } from './model/Champion';
 
 
-export const SPOTLIGHT = CHAMPION.JABARIPANTHER;
+export const SPOTLIGHT = CHAMPION.SHANGCHI;
 export const RATINGS = [ 1, 2, 3, 4, 5 ];
 export const GRADES = [ 'A+', 'A', 'A-', 'B+', 'B', 'B-', 'C+', 'C', 'C-', 'D', 'E', 'F' ];
 export const RANGES = [

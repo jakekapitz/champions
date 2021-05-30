@@ -1,0 +1,26 @@
+{
+    "description": "The King of the reclusive but technologically-advanced African nation Wakanda, King T’Challa’s birthright is not only to rule but to don the mantle of the Black Panther, a powerful warrior and symbol to his people. T’Challa will aggressively defend his country and citizens against any threat, no matter how menacing.",
+    "gameplay": {
+        "description": "Critical Hits:\nCritical Hits have 100% Chance to apply a Bleed dealing 1035.45 direct damage over 6 seconds.\n\nAll Attacks:\n100% Chance to gain a Cruelty Passive granting +158 Critical Damage Rating for 1.25 second(s). These Cruelty Passives fall off one at a time. Max Stacks: 15\nIntercepting the Opponent or striking them while they are recovering from a Heavy or Special Attack grants an additional Cruelty Passive.\nWhile striking into an Auto-Block, Panther is Immune to Stun.\n\nPanther’s Might – Inactive Charges\nDashing back after a non-combo ending attack will grant 1 Indefinite Inactive Panther’s Might Charge. Max: 5 Charges.\nInactive Panthers Might Charges cannot be gained while Panther’s Might is Active.\n\nPanther’s Might\nLanding a Heavy Attack while at 3 or more Inactive charges grants Panther’s Might for 3 seconds per charge consumed.\nUpon Activation: Gain 1 Precision Passive for each Personal Cruelty Passive active, each increasing Critical Rating by +87.5.\nIntercepting the Opponent or hitting an Opponent recovering from a Heavy or Special Attack pauses Panther’s Might for 5 seconds.\nPause all Personal Cruelty Passives.\nWhile Active:\nBleed Debuffs gain +8% Duration for each Personal Cruelty Active on Black Panther.\nAttacks reduce opponents Defensive Ability Accuracy by 50%.\n\nSpecial Attacks 1 and 2\nIntercepting the opponent: Each hit of this Attack is a Guaranteed Critical Hit and apply an additional Bleed Debuff."
+    },
+    "specials": {
+        "1": {
+            "description": "Gain 3 Inactive Panther’s Might charges. Then consume all charges and enter Panther’s Might for 5 seconds per charge consumed. "
+        },
+        "2": {
+            "description": "This Attack gains +115.05 Attack Rating for each Personal Cruelty Active on Black Panther."
+        },
+        "3": {
+            "description": "Inflicts up to 5 Bleed Debuffs, with each having a 100% chance to apply, and dealing 805.35 direct damage over 15 seconds.\nRefresh the Duration of Panther’s Might."
+        }
+    },
+    "signature": {
+        "name": "FOR WAKANDA!",
+        "description": "Intercepting the Opponent has 100% Chance to Purify one of each Debuff from Black Panther. Cooldown 1.04 seconds.\nEach Bleed Debuff on the Opponent decreases their Defensive Ability Accuracy by 10.05%. Max 5 Bleeds."
+    },
+    "author": {
+        "name": "Kabam",
+        "type": "spotlight",
+        "profile": "https://playcontestofchampions.com/champion-spotlight-black-panther/"
+    }
+}

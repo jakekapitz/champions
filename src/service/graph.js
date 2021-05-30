@@ -447,6 +447,18 @@ const EFFECT_COLORS = {
     [ EFFECT.PYRAMID_X ]: '#776e99',
     [ EFFECT.TEMPLE_OF_VISHANTI ]: '#aacff0',
     [ EFFECT.TRIBAL_WARFARE ]: '#f639df',
+    [ EFFECT.EYES_OF_THE_DRAGON ]: '#7f7ece',
+    [ EFFECT.MASTER_MARTIAL_ARTISTS ]: '#586f4f',
+    [ EFFECT.SHADOWLAND ]: '#d2cdd4',
+    [ EFFECT.THE_WAY_OF_THE_SPIDER ]: '#43c76e',
+    [ EFFECT.A_BEING_DARKER_THAN_I ]: '#c7764d',
+    [ EFFECT.FROM_LIGHT_TO_DARK ]: '#e81bcd',
+    [ EFFECT.HEALING_TOUCH ]: '#c1ac4c',
+    [ EFFECT.TIME_WE_CHANGED_TOO ]: '#f40fe2',
+    [ EFFECT.BATTLEREALMS_CHANGING ]: '#b99d29',
+    [ EFFECT.KINGS ]: '#2e703e',
+    [ EFFECT.ROYALS ]: '#bbaa9e',
+    [ EFFECT.WARRIORS ]: '#d04049',
 
 };
 
