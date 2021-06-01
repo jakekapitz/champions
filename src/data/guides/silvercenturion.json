@@ -1,0 +1,33 @@
+{
+    "description": "Real name: Harry Rhodes. A descendant of a Battleworld version of War Machine, indirectly named after Happy Hogan, who serves as an Iron Legionnaire in the House of Iron. He is an ambitious soldier keen to live up to his family’s legacy and wears armor in the style of the Silver Centurion to honor them, he also just likes the retro look. Specializes in Recon via his Drones.",
+    "gameplay": {
+        "description": "Silver Centurion Armor\nStart the fight with one indefinite Armor Up Buff, increasing Armor rating by +700. If this Buff is removed for any reason it re-triggers after 10 seconds.\nWhile the above Armor Up Buff is active, Silver Centurion becomes immune to Bleed and Shock Effects.\n\nLock-On\nTo ready Lock-On Silver Centurion must remain near his Opponent for 12 seconds. As an Attacker, moving away from the Opponent before readying the Lock will cause progress to be lost over time.\nOnce Lock-On is ready it can be activated by throwing any Special Attack and is paused while standing near the Opponent.\nThe active Lock-On lasts 2 seconds, but each full Bar of Power adds 1 seconds to it’s duration. This duration is doubled for Defenders.\nLock-On lasts 25% longer against Mutants and 25% shorter against Cosmics.\nPlasma effects are paused while Locked-On.\n\nAll Attacks\nWhenever Silver Centurion would strike with a Critical Hit he instead inflicts a Shock Debuff that lasts for 3 seconds. The Potency scales with Critical Damage Rating.\nIf Lock-On is not active, inflicting Shock into an Incinerated Opponent or vice-versa will fuse those two effects into a Plasma Debuff that has the properties of both. This Plasma lasts for 12 seconds.\n\nFinish a combo with a Light Attack – Heat Punch\nWhile Lock-On is not active, inflict an Incinerate Debuff, dealing 345.15 Energy damage over 12 seconds. This effect also removes Perfect Block Chance and reduces Block Proficiency by 50% while it is active.\n\nSecond Medium Hit – Plasma Blast \nWhile Locked-On, deal a burst of 690.3 Energy Damage per stack of Plasma."
+    },
+    "attack": {
+        "heavy": "Inflict a non-stacking Slow Debuff for 10 seconds reducing the Ability Accuracy of the Opponent’s Unstoppable and Evade effects by 100%. Opponents with a natural Class Advantage cannot be Slowed. "
+    },
+    "specials": {
+        "1": {
+            "description": "On Activation if Lock-On is active, it is refreshed.\nInflict a Heal Block Debuff, preventing the Opponent from recovering Health for 10 seconds.\nIf the Opponent is under the effect of a Regeneration effect the Heal Block is turned into a Passive and lasts for 15 seconds.",
+            "note": "Sometimes refreshing Lock-On has a better pay off longer term than trying to reach Special Attack 2 for a big burst of damage."
+        },
+        "2": {
+            "description": "On activation if Locked-On, all Plasma effects are refreshed.\nWhile Locked-On if the Opponent has 5 stacks or more of Plasma the last hit deals a burst 2301 Energy Damage for each stack of Plasma. If the Opponent is under 5 stacks of Plasma inflict 3 stacks of Plasma instead.\nIf Lock-On is not active, the last hit inflicts a Plasma Debuff dealing Energy Damage based on the last hit landed over 12 seconds. The potency of this effect increases with Critical Damage Rating.",
+            "note": "The only way to inflict Plasmas on the Opponent while on Lock-On is by using Special 2."
+        },
+        "3": {
+            "description": "Activate Lock-On even if the conditions are not met.\nInflict a Slow Debuff for 28 seconds, reducing the Ability Accuracy of the Opponent’s Unstoppable and Evade effects by 100%. Opponents with a natural Class Advantage cannot be Slowed.\nInflict a Power Drain Debuff that removes 1 Bar of Power plus an additional 25% of a Power Bar for each stack of Plasma over 10 seconds.",
+            "note": "Silver Centurion can use his own Special 3 Attack without any fear of pushing the opponent to 3 Bars of Power because of the long duration Power Drain he inflicts on the Opponent with this attack. "
+        }
+    },
+    "signature": {
+        "name": "Improved Lock-On",
+        "description": "Silver Centurion’s personal Shock and Plasma Debuffs become Passives and their duration is increased by 25%.\nWhile Locked-On Block Proficiency is increased by +3150.06",
+        "note": "Silver Centurion’s increased Block Proficiency while in Lock-On allows him to play very aggressively and stay up close to the Opponent for extended periods of time. "
+    },
+    "author": {
+        "name": "Kabam",
+        "type": "spotlight",
+        "profile": "https://playcontestofchampions.com/champion-spotlight-silver-centurion/"
+    }
+}

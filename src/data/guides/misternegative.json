@@ -1,0 +1,29 @@
+{
+    "description": "After the downfall of his gang the Snakeheads “Martin Li” was captured by the international crime syndicate known as The Maggia and used in the experimentation of a new synthetic drug called “D-Lite”. Surviving the experiments and escaping his captors Li developed super-powers giving him the ability to tap into the Lightforce and Darkforce. Dedicating himself to become Chinatown’s Kingpin of Crime, Li deemed himself “Mister Negative”, swinging between good and evil without remorse with the ultimate goal of erasing the Maggia for what it did to him.",
+    "gameplay": {
+        "description": "Always Active\nMister Negative is immune to all Nullify, Stagger and Fate Seal effects.\nThe potency of the Opponent’s Degeneration effects are reduced by 40% for each unique Debuff they suffer.\nWhen Evading for any reason, Mister Negative counter-attacks with a hit dealing a burst of 2071.45 Physical Damage and granting the Opponent Power equal to a Medium Attack.\n\nLight Energy Passive – Max stacks 20\nWhenever either champion performs a Well-Timed Block, gain +2 Light Energy.\nDashing back removes all Buffs on Mister Negative, granting +1 Light Energy per Buff removed.\nLight Energy lasts indefinitely until reaching 10 stacks after which all stacks will expire over 6 seconds.\n\nDark Energy Passive – Max stacks 20\nIf Mister Negative performs an Evade or is Knocked down, all Light Energy is converted into Dark Energy.\nDark Energy lasts indefinitely until reaching 10 stacks after which all stacks begin to expire over 16 seconds.\nWhile suffering from Disorient, all Dark Energy is removed and additional Dark Energy cannot be gained.\nEach time Dark Energy is gained, inflict a Delirium Debuff lasting 0.8 second(s) per Light Energy converted.\nA Delirious Opponent suffers -60% Defensive Combat Power Rate and has their Dash and Dodge controls reversed."
+    },
+    "attack": {
+        "heavy": "The first hit grants a Fury Buff increasing Attack Rating by +365.55 for 10 seconds.\nWhile Charging a Heavy Attack, if 1 or more Light Energy are active, gain 100% Evade chance against Basic Attacks."
+    },
+    "specials": {
+        "1": {
+            "description": "On activation gain a Bulwark Passive for 30 seconds, increasing Block Proficiency by +700 for each Light Energy, then convert all Light Energy into Dark Energy.\nThe final hit inflicts an Exhaustion Debuff, lowering the Opponent’s Critical Damage Rating by 225 for 20 seconds."
+        },
+        "2": {
+            "description": "The 1st hit inflicts a Petrify Debuff, reducing the Opponent’s Regeneration and Ability Power Rate by 80% for 20 seconds.\nThe 2nd hit inflicts another Petrify if 10 or more Dark Energy are active.\nThe 3rd hit inflicts a Degeneration Debuff, dealing up to 3289.95 Direct Damage over 10 seconds.\nThe final hit consumes all remaining Dark Energy, inflicting 1 additional Degeneration for each Dark Energy consumed."
+        },
+        "3": {
+            "description": "Inflict a Delirium Debuff for 20 seconds.\nAll Light Energy is consumed, each Regenerating 380.43 Health.\nAll Dark Energy is consumed, each dealing a burst of 2071.45 Direct Damage to the Opponent."
+        }
+    },
+    "signature": {
+        "name": "Corrupting Touch",
+        "description": "Passive\nWhenever a Nullify, Stagger, or Fateseal is prevented by Mister Negative’s immunity, deal a burst of 1218.49 Physical Damage.\nWhile suffering from Degeneration, Regenerate +731.73 Health per second.\nEach Light Energy grants +182.62 Energy Resistance.\nEach Dark Energy deals 60.93 Physical Damage every second while the Opponent is suffering from a non-damaging Debuff. This scales with Base Attack only."
+    },
+    "author": {
+        "name": "Kabam",
+        "type": "spotlight",
+        "profile": "https://playcontestofchampions.com/champion-spotlight-mister-negative/"
+    }
+}
