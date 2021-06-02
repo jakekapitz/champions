@@ -1,0 +1,26 @@
+{
+    "description": "Purgatory is a twisted, demonic creature, from an alternate timeline where Morningstar was finally able to defeat Guillotine and steal her sword back. With the blade finally back in her hands, the demonic presence within it overwhelmed Queen Haasen and convinced her to slay Guillotine. Doing so corrupted both her body and soul, transforming her into Purgatory and sending her on a bloodthirsty rampage unlike any seen in a millennium.",
+    "gameplay": {
+        "description": "ALWAYS ACTIVE:\n- +1400 Energy Resistance, immune to Incinerate, and all attacks deal Energy damage instead of Physical.\n- Combat Power Rate is decreased by 40%.\n- Gain additional abilities depending on the Opponent’s Class. These abilities are listed below, under \"Class Soul Abilities\".\nALL ATTACKS - BLOODTHIRST - MAX: 100:\n- Purgatory’s Well-Timed Blocks, and Basic attack hits from either Champion, grant 5 Bloodthirst. Bloodthirst falls off over time, falling off faster the longer it’s been since it last increased.\n- Bloodthirst falls off slower for each Buff on the Opponent, during any Special Attack, and when fighting as a Defender.\n- Gaining any Bloodthirst grants up to 9% of a Bar of Power based on Bloodthirst, over 1.50 second(s).\n- When Bloodthirst reaches Max, Purgatory snaps into a Demonic Rampage, locking Bloodthirst at Max for 15 second(s), after which it resets to 0.\nDEMONIC RAMPAGE - PASSIVE:\n- +2274.4 Attack Rating.\n- Demonic Rampage is Paused during Purgatory’s Special Attacks, and for 3 second(s) when she fills a Bar of Power.\n- Striking with the second Medium Attack causes Purgatory to consume 50% of a Bar of her own Power, and then Incinerate the Opponent for 1563.65 Energy Damage over 4 second(s). Incinerate removes Perfect Block Chance and reduces Block Proficiency by 50% while it’s active.\nWHEN FILLING A BAR OF POWER - CROSS-FIGHT SOUL CAPTURE:\n- As Purgatory gains Power, the Bloodline sword steadily steals the Opponent’s soul from their body. Gain 1 Soul Shard when filling a Bar of Power, 2 when fighting as a Defender.\n- At 9 Shards, she captures the Opponent’s Soul, inflicting an indefinite Passive Neutralize that reduces Buff Ability Accuracy by -65%.\n- Winning the fight after capturing their soul also permanently activates their Class Soul Ability for the next 2 fight(s) against all Classes. Class Soul Abilities do not stack.\n- Mystic Soul: When the Opponent activates a Special Attack, Passively Regenerate 60% of damage taken from Blocked Hits for 6 second(s).\n- Cosmic Soul: When filling a Bar of Power, Nullify 1 Buff off the Opponent. If a Buff was Nullified, gain an Unblockable Buff for 2 second(s).\n- Tech Soul: When filling a Bar of Power, inflict a non-stacking Armor Break Debuff for 6 second(s) reducing Armor Rating by -1400.\n- Mutant Soul: When the Opponent activates a Special Attack, Power Steal 66% of their remaining Power, gaining 100% of the Power stolen.\n- Skill Soul: When a Damage over Time Debuff on the Opponent Expires, is Purified, or fails to apply due to an Immunity, inflict a Slow Passive for 9 second(s). Slow reduces Unstoppable and Evade Ability Accuracy by 100%, and prevents the effects of Unstoppable. Slow won't trigger against natural Class Advantage.\n- Science Soul: The chemically-tainted souls of Science champions cannot be stolen.\nSPECIAL ATTACKS:\nIf activated during Demonic Rampage, gain a Fury Buff increasing Attack Rating by +2274.4 during the Special Attack."
+    },
+    "specials": {
+        "1": {
+            "description": "On Activation, gain 25 Bloodthirst.\nIf activated during Demonic Rampage, each hit Regenerates 10% of the damage dealt."
+        },
+        "2": {
+            "description": "The last hit inflicts a Degeneration Debuff, dealing 7676.1 Direct Damage over 6 second(s).\nIf activated during Demonic Rampage, this attack is Passively Unblockable."
+        },
+        "3": {
+            "description": "Gain a non-stacking Power Gain Buff, granting 100% of Max Power over 35 second(s).\nIf the Opponent’s Soul is captured, this attack deals 4% of their Max Health in Direct Damage."
+        }
+    },
+    "signature": {
+        "name": "Eternal Damnation",
+        "description": "Winning the fight during Demonic Rampage or with a Special Attack instantly captures the Opponent’s Soul.\nThe duration of the Mystic, Cosmic, and Skill Souls is increased by 35%. The potency of the Tech and Mutant Souls is increased by the same percent."
+    },
+    "author": {
+        "name": "Kabam",
+        "type": "spotlight",
+        "profile": "https://playcontestofchampions.com/champion-spotlight-purgatory/"
+    }
+}

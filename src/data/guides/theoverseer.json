@@ -1,0 +1,32 @@
+{
+    "description": "A younger version of Maestro from an alternate reality that is equal in every way, except he still maintains his sanity. The Overseer has just started his conquering career and while he isn’t villainous, he’s not quite noble either. He uses Captain America's shield for defense, and the Silver Surfer board as a giant cleaver, but his most powerful weapon is a copy of the Infinity Gauntlet that holds the Cosmic Cube, which he uses to travel across the Battlerealm looking for conquest.",
+    "gameplay": {
+        "description": "ALWAYS ACTIVE:\n- Immune to Nullify, Fate Seal and Stagger.\n- An enhanced Immune system provides a full Immunity to the Poisons of the Battlerealm.\nGAMMA POWER\n- When the Opponent gains a Bar of Power gain an indefinite Gamma Power granting 351.9 Attack Rating and 17% Potency of his personal Debuffs from Special Attacks. Max 6 Stacks.\nCOSMIC MODE\n- At 3 or more Stacks of Gamma Power, after launching a Special Attack consumes all stacks and activates Cosmic Mode, lasting 3.33 second(s) per Gamma Power, but it is paused during Special Attacks from the Overseer or the Opponent. Cosmic Mode lasts 50% longer for Defenders.\n- For each Gamma Power gained while in Cosmic Mode, instead gain a non-stacking Fury Buff granting 586.5 Attack Rating per Gamma Power used to enter the mode, with its total duration equaling its Cosmic Mode starting duration.\n- Light Attacks deal a Burst of 1548.36 Physical Damage.\nAFTER OPPONENT LAUNCHES A SPECIAL - SPECIAL CONCUSSION\n- Inflict an indefinite Special Concussion Debuff, reducing Ability Accuracy by 10% during Special Attacks. Max 7.\n- Reducing a Combo of 3 or more to a lower amount removes one stack of Special Concussion.\nAFTER A SPECIAL - CAP’S SHIELD\n- Gain an Auto-Block Passive, giving 100% chance to Auto-Block Basic Attacks when Struck twice, it lasts for 7 second(s) or until triggered.\n- The Overseer is Stun Immune while Auto-Block is active."
+    },
+    "attack": {
+        "heavy": "Inflict a non-stacking Taunt Debuff for 10 seconds(s). Opponents that are Taunted have their Attack reduced by 20% and have a 70% higher chance to activate Special Attacks. This ability goes on cooldown for 20 second(s) if activated."
+    },
+    "specials": {
+        "1": {
+            "name": "Supersonic Impact",
+            "description": "Inflict a Stun Debuff for 1.5 second(s).\nCosmic Mode: On activation gain a Regeneration Buff, recovering 7% of missing Health over 10 seconds. The Potency of this Buff is reduced by 10% for each Bleed Debuff on Overseer."
+        },
+        "2": {
+            "name": "Cleaving Strike",
+            "description": "Inflicts a Disorient Debuff, reducing Defensive Ability Accuracy by 40% and Block Proficiency by 50% for 12 second(s). Ability Accuracy reduction scales with Gamma Power.\nCosmic Mode: Gain an Energize Buff, granting 25% increased Combat Power Rate for 12 second(s)."
+        },
+        "3": {
+            "name": "Cosmic Assault",
+            "description": "Inflict a Physical Vulnerability Debuff, reducing Physical Resistance by 700 for 20 seconds."
+        }
+    },
+    "signature": {
+        "name": "Retaliation",
+        "description": "If an Opponent ability fails due to his personal immunity or reduced Ability Accuracy they take a burst of 938.41 Physical Damage and the Overseer gains one Gamma Power. This Damage scales with Base Attack Only. This effect has a 1 second cooldown.\nStriking the Opponent while they are recovering from Heavy or Special Attacks Attacks deal a burst of 2345.99 Physical Damage. This effect has a 1 second cooldown."
+    },
+    "author": {
+        "name": "Kabam",
+        "type": "spotlight",
+        "profile": "https://playcontestofchampions.com/champion-spotlight-the-overseer/"
+    }
+}

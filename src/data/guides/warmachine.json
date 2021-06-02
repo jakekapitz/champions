@@ -1,57 +1,32 @@
 {
+    "description": "James “Rhodey” Rhodes, decorated U.S. Air Force pilot and longtime ally of Tony Stark, combats evil and injustice as the armored War Machine. True to his codename, Rhodes’ armor delivers heavy metal power via its wrist-mounted machine guns and shoulder-mounted artillery cannon.",
+    "gameplay": {
+        "description": "ALWAYS ACTIVE:\n- Start the fight with an indefinite Armor Up Buff increasing Armor Rating by 3575.68.\nPERSISTENT CHARGE - MAX 5:\n- War Machine begins each Quest with 2 Persistent Charges.\n- Charges can be spent in the pre-fight screen to activate one or more Armory Boosts (found below). Each Boost lasts 1 fight, doesn’t stack, and can be used by War Machine or other Tech Champions.\n- Winning a fight with War Machine grants 1 Charge(s) plus an additional 1 Charge(s) for each other #Hero Champion on his team.\nARMORY BOOSTS - PRE-FIGHT ABILITY:\n- Tech Attackers gain +10% Attack Rating when an Armory Boost is active.\n- Support: Gain 2 Cleanse Charges. When champions with Cleanse are inflicted with a Debuff, it is immediately Purified and a Cleanse Charge is removed.\n- Fortify: Gain Energy Resistance equal to their Armor Rating.\n- Skirmish: Gain up to +276.12 Attack Rating based on current Armor Rating and their Debuffs excluding Stuns gain +20% Duration.\nSPECIAL ATTACKS:\n- Advanced auto-targeting prevents the opponent from using Evade."
+    },
+    "attack": {
+        "heavy": "Refreshes all personal Debuffs excluding Stuns on the opponent. Cooldown: 20 seconds."
+    },
     "specials": {
         "1": {
             "name": "Blast Barrage",
-            "description": "59% chance to inflict Bleed, dealing 38% of your Attack as direct damage over 5 Seconds",
-            "note": "This has 5 potential triggers during the attack, allowing up to 5 stacks of Bleed",
-            "damagetypes": [
-                "physical"
-            ],
-            "ranges": [
-                "long"
-            ],
-            "abilities": [
-                "bleed"
-            ]
+            "description": "The minigun’s suppressing fire grants each shot a 100% chance to inflict a Suppression Debuff, reducing Combat Power Rate by 10% for 10 seconds. This effect applies on blocked hits. Max Stacks: 5.\nFor each Armor Break Debuff on the opponent, each shot has a 60% chance to inflict a Rupture Debuff, each dealing 1380.6 Physical Damage over 5.50 seconds. The chance to Rupture increases by 60% for each Armor Break Debuff on the opponent.\nEach Suppression Debuff applied also removes 1 Prowess effect from the opponent."
         },
         "2": {
-            "description": "100% chance to Armor Break, removing enemy Armor and applying 52% Armor reduction for 12 seconds.",
-            "name": "Shoulder Artillery",
-            "ranges": [
-                "long"
-            ],
-            "damagetypes": [
-                "physical"
-            ],
-            "abilities": [
-                "armorbreak"
-            ]
+            "description": "100% chance to inflict an Armor Break Debuff, removing an Armor Up Buff and reducing Armor Rating by 3150 for 30 seconds. Max Stacks: 2.",
+            "name": "Shoulder Artillery"
         },
         "3": {
             "name": "Heavy Ordnance",
-            "description": "100% chance to Armor Break, removing enemy Armor and applying 52% Armor reduction for 12 seconds.78% chance to inflict Bleed, dealing 38% of your Attack as direct damage over 5 Seconds.",
-            "note": "This has 3 potential triggers during the attack, allowing up to 3 stacks of Bleed",
-            "abilities": [
-                "bleed",
-                "armorbreak"
-            ],
-            "damagetypes": [
-                "physical"
-            ]
+            "description": "100% chance to inflict a Stun Debuff lasting 3.50 seconds.\nGain a Fury Passive increasing Attack Rating by 1265.55 for 30 seconds. Each Armor break on the Opponent will grant War Machine an additional Fury Passive."
         }
     },
     "signature": {
         "name": "Empty the Clip",
-        "description": "War Machine readies all remaining ordnance if Health drops below 20%, granting up to 90% increased Armor and 161.6% increased Attack for the next 12 hits.",
-        "note": "War Machine gains 12 instances of Armor Up and Fury. Each instance is 1/12 of the total bonus. Each time War Machine is struck by an opponent, he loses one instance of Armor Up and each time War Machine hits an opponent he loses one instance of Fury.",
-        "abilities": [
-            "fury",
-            "armorup"
-        ]
+        "description": "WHEN BROUGHT BELOW 15% MAX HEALTH:\nWar Machine activates his Empty the Clip routine to do the following:\n- Gain 12 Fury Passives, each granting +366.88 Attack Rating. These effects are lost as War Machine lands attacks.\n- Gain 12 Regeneration Passives, each recovering 1257.12 Health over 15 seconds. These effects are lost as War Machine is struck."
     },
     "author": {
         "name": "Kabam",
         "type": "spotlight",
-        "profile": "548751-War-Machine-Champion-Spotlight-amp-Discussion"
+        "profile": "https://playcontestofchampions.com/champion-spotlight-war-machine/"
     }
 }

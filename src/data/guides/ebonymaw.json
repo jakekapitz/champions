@@ -1,31 +1,32 @@
 {
     "description": "A master of manipulation and overall evil genius, Ebony Maw is Thanos’s most trusted lieutenant, never failing him even once. Focusing on his strong telekinetic abilities rather than raw physical strength, Ebony Maw curves and bends the environment around him with ease. Additionally, his superhumanly persuasive voice allows him to sway even the strongest minds.",
     "gameplay": {
-        "description": "Deteriorations - Passive: \n- Deterioration Passives last indefinitely until consumed, each reducing the potency of the Opponent's Fury effects by a flat 5%, stacking up to a maximum of 20 times.\n\n\nMissions from Thanos\n- Ebony Maw has 3 missions to complete. Each mission can only be completed once per fight.\n- Completing all 3 missions in a single fight grants Ebony Maw 1 Persistent Charge, up to a maximum of 6.\n- When the fight starts, Ebony Maw inflicts the Opponent with 1 Deterioration Passive for every Persistent Charge.\n- Each time Ebony Maw completes a mission, he inflicts the Opponent with a Degeneration Passive, dealing 218.4 damage over 4 seconds.\n- Mission 1: Mastermind : Nullify a Buff from the Opponent.\n- Mission 2: Manipulator : Cause the Opponent to lose Power.\n- Mission 3: Unwavering : Cause the Opponent to Falter and Miss.\n\n\nPASSIVES:\n- If the Opponent doesn’t have Class Advantage, Ebony Maw causes all guaranteed Critical Hits to Miss.\n- Ebony Maw’s first Light Attack is the only Basic hit to make contact with the Opponent.\n\n\nPERSUASIVE VOICE:\n- If Ebony Maw isn't focused, he begins focusing on the Opponent’s mind for 5 seconds understanding their mental state. This time is doubled if he's under the effect of 1 or more non-damaging Debuffs.\n- Once focused, the Opponent gains 1 Persuasion every 0.7 seconds.\n- When struck by the Opponent’s Heavy Attack or Special 3 Attack, Ebony Maw’s focus is broken.\n- For every 20 Persuasion the Opponent gains, they are inflicted with a Falter Passive lasting 3 seconds.\n- Increasing to 5 seconds against Cosmics. Enemies inflicted with Falter have a 100% chance to Miss.\n- At 100 Persuasion the Opponent is Persuaded and inflicted with a Black Tongue Passive, reducing Power Gain from all sources by 30%. Black Tongue is not affected by Ability Accuracy and lasts for the rest of the fight.\n- While Black Tongue is active the Opponent is inflicted with 1 Deterioration Passive every 6 seconds."
+        "description": "ALWAYS ACTIVE:\n- Ebony Maw’s first Light Attack is the only Basic hit to make contact with the Opponent.\n- If the Opponent doesn’t have Class Advantage, Ebony Maw causes all guaranteed Critical Hits to Miss.\nMISSIONS FROM THANOS:\n- Ebony Maw has 3 missions to complete. Each mission can only be completed once per fight and when successful will inflict a Passive Degeneration, dealing 7580.8 Direct Damage over 4 seconds, this scales with Base Attack only.\n- Mission 1 - Mastermind: Nullify a Buff from the Opponent.\n- Mission 2 - Manipulator: Inflict a Power Steal effect.\n- Mission 3 - Unwavering: Cause the Opponent to Miss.\n- Completing all 3 missions in a single fight grants 1 Persistent Charge, each increasing the duration of Degeneration effects by 10% and reducing the potency of the Opponent's Fury effects by 25% for the rest of the quest. Persistent Charges stack up to a max of 4.\nPERSUASIVE VOICE:\n- Become Focused after 7 seconds, this time is doubled while suffering from a non-damaging Debuff. While Ebony Maw is Focusing, the Opponent’s Ability Power Rate is reduced by 60%.\n- If knocked down by a Heavy Attack or Special Attack 3, Focus is broken and re-focusing begins after 1 second(s). Once Focused, the Opponent gains 1 Persuasion every 0.60 seconds.\n- Every 20th Persuasion the Opponent gains will inflict a Falter Debuff for 3 seconds, giving them a 100% chance to Miss. This duration is increased to 4 seconds against Cosmic Opponents.\n- At 100 Persuasion the Opponent is inflicted with Black Tongue for the rest of the fight, reducing Power Gained from all sources by 40% and increasing Ebony Maw’s Attack Rating by +947.6.\n- When Black Tongue is active, inflict the above Falter Debuff every 15 seconds."
     },
     "attack": {
         "heavy": "Landing a Heavy Attack steals all the Opponent’s Power gain Buffs and 10% of their current Power."
     },
     "specials": {
         "1": {
-            "description": "Unseen Blades \n- Ebony Maw forms sharp blades from the objects in his vicinity, slashing the opponent with multiple strikes.\nWhen activated and with each hit, Ebony Maw Nullifies 1 Fury, Cruelty, or Precision Buff from his Opponent.\n- This expands to all Buffs if the Opponent is inflicted with Black Tongue.\n- If no Buffs were Nullified during this attack, the Opponent gains a Fury Buff increasing their Attack Rating by 0 for 6 seconds.",
-            "note": "Ebony Maw’s ability to Nullify immediately without landing a hit can be extremely dangerous since it will target the precision buff granted from a successful dex."
+            "name": "Unseen Blades",
+            "description": "When activated and with each hit, Ebony Maw Nullifies 1 Fury, Cruelty, or Precision Buff from the Opponent. This expands to all Buffs if the Opponent is inflicted with Black Tongue.\nIf no Buffs were Nullified during this Attack, the Opponent gains a Fury Buff increasing their Attack Rating by 0 for 10 seconds."
         },
         "2": {
-            "description": "Enviromental Manipulation\n- Ebony Maw manipulates the ground beneath his opponent, knocking them back and forming spikes from nearby debris to hurl at them.\n- Inflicts the Opponent with a Degeneration Passive, dealing 218.4 damage over 4 seconds."
+            "name": "Environmental Manipulation",
+            "description": "Each hit inflicts a Passive Degeneration, dealing 3056.01 Direct Damage over 4 seconds. If the Opponent is suffering from a Falter effect, each hit inflicts 2 additional Degenerations.\nThe final hit refreshes any active Falter Debuffs."
         },
         "3": {
-            "description": "Microsurgery Paralysis\n- Ebony Maw uses his telekinetic abilities to lift his opponent into the air drawing them closer before impaling them with microsurgery needles.\n- Ebony Maw reaches into his Opponent’s mind depleting all their current Power, gaining 35% of the Power depleted for himself over the next 4 seconds."
+            "name": "Microsurgery Paralysis",
+            "description": "This Attack grants no Power to the Opponent.\nSteal 100% of the Opponent’s Power and gain a Power Gain Buff, granting 40% of the Power stolen over 5 seconds."
         }
     },
     "signature": {
-        "description": "Deteriorating Mind\n- When the Opponent Misses an attack they are inflicted with a Degeneration Passive, dealing 218.4 damage over 4 seconds.\n- Each time Ebony Maw Nullifies a Buff or Activates a Special Attack he places 1 Deterioration Passive on his Opponent.\n- When Ebony Maw inflicts his Opponent with a Degeneration, all Deterioration Passives are consumed, each adding 218.54 damage to the Degeneration.",
-        "note": "The damage added by each Deterioration seems small, but keep in mind these can stack up to 20 and once the opponent has been inflicted with Black Tongue will stack up even faster allowing Ebony Maw to output some decent damage here. Additionally, while fighting an opponent with a lot of Buffs, Ebony Maw can build these Passives at an alarming rate since his Special 1 Attack can nullify up to 4 Buffs from the opponent."
+        "description": "When the Opponent Misses an Attack they are inflicted with a Passive Degeneration, dealing 947.61 Direct Damage over 1 seconds.\nWhile the Opponent is suffering from a Falter Debuff their Auto-Block Ability Accuracy is reduced by 100% and Ebony Maw gains +40% Ability Power Rate.",
+        "name": "Deteriorating Mind"
     },
     "author": {
         "name": "Kabam",
         "type": "spotlight",
-        "profile": "https://forums.playcontestofchampions.com/en/discussion/139188/champion-spotlight-ebony-maw"
-    },
-    "youtube": "GGC02z9Bj1o"
+        "profile": "https://forums.playcontestofchampions.com/en/discussion/266404/champion-spotlight-ebony-maw"
+    }
 }
