@@ -1,0 +1,35 @@
+{
+    "description": "",
+    "gameplay": {
+        "description": ""
+    },
+    "heavy": {
+        "description": ""
+    },
+    "specials": {
+        "1": {
+            "description": "",
+            "name": ""
+        },
+        "2": {
+            "description": "",
+            "name": ""
+        },
+        "3": {
+            "description": "",
+            "name": ""
+        }
+    },
+    "signature": {
+        "name": "",
+        "description": ""
+    },
+    "attack": {
+        "heavy": ""
+    },
+    "author": {
+        "name": "Kabam",
+        "type": "spotlight",
+        "profile": "https://playcontestofchampions.com/champion-spotlight-/"
+    }
+}

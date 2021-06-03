@@ -22,7 +22,7 @@
     },
     "signature": {
         "name": "Absorption",
-        "description": "Energy Damage Effects:\nAttacks that deal Energy Damage cause Ultron to Regenerate 65.96% of the damage dealt to him. Each Energy-based Attack also grants Ultron a burst of Power based on the damage dealt.\nIncoming Incinerate and Shock effects suffer -80% Duration.",
+        "description": "Energy Damage Effects:\nAttacks that deal Energy Damage cause Ultron to Regenerate 65.96% of the damage dealt to him. Each Energy-based Attack also grants Ultron a burst of Power based on the damage dealt.\nIncoming Incinerate and Shock effects suffer -80% Duration."
     },
     "attack": {
         "heavy": "Triggers Function (Damage) for each unique Function Ultron has utilized during the fight. Cooldown: 5 seconds per unique Function utilized during the fight."
@@ -31,5 +31,5 @@
         "name": "Kabam",
         "type": "spotlight",
         "profile": "https://playcontestofchampions.com/champion-spotlight-ultron/"
-    },
+    }
 }

@@ -7,4 +7,3 @@ npm-debug.log
 /.idea
 /node_modules
 /build
-src/data/guides/template.json
