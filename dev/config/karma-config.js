@@ -49,6 +49,8 @@ export default function(config) {
         ],
         colors: true,
         logLevel: config.LOG_WARN,
+        captureTimeout: 60000,
+        browserNoActivityTimeout: 60000,
         concurrency: Infinity,
     });
 }
