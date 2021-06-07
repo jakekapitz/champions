@@ -51,6 +51,7 @@ export default function(config) {
         logLevel: config.LOG_WARN,
         captureTimeout: 60000,
         browserNoActivityTimeout: 60000,
+        browserDisconnectTolerance: 2,
         concurrency: Infinity,
     });
 }
