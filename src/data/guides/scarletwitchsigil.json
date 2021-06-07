@@ -1,3 +1,32 @@
 {
-    "description": "Scarlet Witch (Sigil) is an unplayable Mystic Champion"
+    "description": "Gifted with the powers of chaos magic since birth, Scarlet Witch can conjure hexes of unimaginable destruction, capable of irreversibly altering the very fabric of reality itself.",
+    "gameplay": {
+        "description": "ALL ATTACKS:\n- Deal Energy Damage instead of Physical.\nINSTABILITY:\n- On Special Activation, gain 1 indefinite Instability. 1 Instability is removed when knocked down by a Special Attack.\n- If 6+ Instability are active for 10 seconds, inflict Opponent with Degeneration, dealing 7986 Direct Damage over 6 seconds.\n- When the above Degeneration expires, remove all Instability.\nCHAOS SURGE:\n- Every 4 Seconds, activate Chaos Surge, granting both Champions a 20% chance per Instability to gain 1 randomly selected Buff. Small chance to grant all Buffs.\n- Armor Up, granting +1130.77 Armor Rating for 12 seconds.\n- Fury, granting +1331 Attack Rating for 12 seconds.\n- Cruelty, granting +233.33 Critical Damage Rating for 12 seconds.\n- Prowess, granting 120% Special Attack Damage for 12 seconds.\n- Unblockable, lasting 4 seconds.\n- Buffs are not granted to Champions launching Special Attacks.\n- If Scarlet Witch Nullifies any Armor Up, Fury, Cruelty, Prowess, or Unblockable Buffs, she gains her matching Chaos Surge Buff.\nBEFORE THE OPPONENT LANDS AN ATTACK:\n- While blocking, 15% chance to Nullify 1 Buff. Increased to 100% during the Well-Timed Block window."
+    },
+    "attack": {
+        "heavy": "Consume 1 Instability to create a non-stacking Power Gain Buff, generating 100% of a Bar of Power over 10 seconds."
+    },
+    "specials": {
+        "1": {
+            "name": "Crushing Blow",
+            "description": "The first successful hit creates 1 Instability."
+        },
+        "2": {
+            "name": "Chaos Bombardment",
+            "description": "Each hit inflicts a Random Debuff. Duration is increased by 20% for each Buff on either Champion. Max 100%.\nPoison, dealing 4259.2 Direct Damage over 10 seconds. Poison also reduces the Opponents Regeneration Rate by 30%.\nColdsnap, dealing 4259.2 Energy Damage over 10 seconds. Coldsnap also prevents the activation of evade.\nIncinerate, dealing 4259.2 Energy Damage over 10 seconds. Incinerate also prevents the activation of Perfect Block and reduces Block Proficiency by 50%."
+        },
+        "3": {
+            "name": "Collective Destruction",
+            "description": "Nullify up to 5 Buffs on the Opponent. Each Buff Nullified this way increases this attacks Attack Rating by 798.6.\nRemove all Instabilities, each inflicting a Passive Degeneration dealing 7320.5 Direct Damage over 10 seconds."
+        }
+    },
+    "signature": {
+        "name": "Organized Chaos",
+        "description": "ON ACTIVATION OF CHAOS SURGE:\n- Against Cosmic, Mystic, Tech Opponents: 20% chance per Instability to inflict a Petrify or Armor Break Debuff for 3 seconds.\n- Against Cosmic, Mutant, Skill Opponents: 20% chance per Instability to inflict a Power Sting or Heal Block Debuff for 3 seconds.\n- Petrify: Reduce Regeneration Rate and Ability Power Gain Rate by 90%.\n- Armor Break: reducing Armor by 1102.62.\n- Power Sting: Deal 2009.3 Direct Damage on activation of Opponents Special Attacks.\n- Heal Block: Stopping all healing effects."
+    },
+    "author": {
+        "name": "Kabam",
+        "type": "spotlight",
+        "profile": "https://playcontestofchampions.com/champion-spotlight-scarlet-witch/"
+    }
 }
